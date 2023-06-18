@@ -12,9 +12,9 @@ public class FileUpload extends CommonMethods {
 
 //        find the element which u can click to upload the file
         WebElement fileUploadBtn = driver.findElement(By.xpath("//input[@id='file-upload']"));
-//in order to send/upload the file
-//   u can send the path of that file in sendKEys.
+//        in order to send/upload the file
+//        u can send the path of that file in sendKEys.
 //        the file path will be different for everyone depending on their own system
-        fileUploadBtn.sendKeys("C:\\Users\\moazzam\\Desktop\\Java.txt");
+        fileUploadBtn.sendKeys("C:\\Users\\viloa\\Downloads\\Write_5_test_cases.docx");
     }
 }

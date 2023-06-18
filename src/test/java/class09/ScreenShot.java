@@ -32,7 +32,7 @@ public class ScreenShot extends CommonMethods {
         File screenShot = ts.getScreenshotAs(OutputType.FILE);
 
 //        save it in your computer
-        FileUtils.copyFile(screenShot, new File("C:\\Users\\moazzam\\Desktop\\syntaxHRMS\\syntaxSdetBatch16Basic\\screenshot\\testSyntax1.png"));
+        FileUtils.copyFile(screenShot, new File("C:\\Users\\viloa\\IdeaProjects\\SeleniumPreparation\\screenshot\\testSyntax1.png"));
     }
 }
 
